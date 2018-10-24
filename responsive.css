@@ -1,0 +1,45 @@
+/*
+* This is file of entire responsive website
+ */
+
+
+ /*
+ * between 768px and 1040px  news thumbnails will be 2columned
+   */
+
+
+/*  This is tablet responsive design  */
+ @media screen and (min-width: 650px) and (max-width: 1040px) {
+   .news-container {
+     width: 100%;
+   }
+
+   .news-thumbnail {
+     width: 50%;
+   }
+
+   .news-thumbnail img {
+     width: 80%;
+   }
+
+   .footer-container {
+     width: 100%;
+   }
+ }
+
+ /* This is mobile responsive design */
+ @media screen and (max-width: 650px) {
+   .news-container {
+      width: 100%;
+   }
+
+   .news-thumbnail {
+     width: 100%;
+   }
+
+   .footer-container {
+     width: 100%;
+     box-sizing: border-box;
+     padding-left: 10px;
+   }
+ }
